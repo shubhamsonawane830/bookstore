@@ -1,0 +1,131 @@
+.container{
+    display: flex;
+    flex-direction: column;
+ /* height: 100vh;  */
+}
+#appbar {
+    display: flex;
+    width: 100%;
+    background-color: rgb(114, 13, 13);
+    height: 60px;
+    padding: 5px 156px;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+}
+.icon-search{
+    display: flex;
+    align-items: center;
+    width: 100%;   
+}
+.book{
+    width: 45px;
+    height: 45px;
+}
+
+.image {
+	height: 8px;
+	width: 12px;
+}
+#search {
+    height: 30px;
+	width: 1290px;
+   /* width: 49%;*/
+    border-radius: 3px;
+    padding-left: 10px;
+    /* outline: none; */
+    margin-left: 50px;
+	margin-bottom: 45px;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+#add-shoping{
+    width: 40px;
+    height: 40px;
+}
+
+.style{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.Bookname{
+    font-size: 25px;
+    margin-left: 5px;
+    font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.Bookstore{
+	margin-top: 12px;
+}
+
+.Cart {
+    margin-left: 45%;
+    font-weight: 300;
+
+}
+/* */
+
+.toolbar{
+    display: flex;
+    flex-direction: row;
+	justify-content: center;
+    width: 100%;
+    background-color: #A03037;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    margin-left: 10%;
+}
+#search{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+	margin-top: 12px;
+
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    margin-left: 22%;
+    border-left: 1px solid rgb(129, 129, 129);
+    border-right: 1px solid rgb(129, 129, 129);
+    padding: 0 2% 0 1%;
+}
+
+.cart{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1%;
+    border-right: 1px solid rgb(129, 129, 129);
+    padding: 0 2% 0 0;
+}
+
+.MuiTypography-root{
+    text-decoration-color: white;
+}
+
+@media screen and (max-width: 600px) {
+
+    .profile{
+        display: flex;
+        flex-direction: row;
+        margin-left: 8%;
+        border-left: 1px solid rgb(129, 129, 129);
+        border-right: 1px solid rgb(129, 129, 129);
+        padding: 0 2% 0 1%;
+    }
+
+    .title{
+        display: flex;
+        flex-direction: row;
+        height: 20px;
+        margin-left: 0%;
+    }
+
+}
