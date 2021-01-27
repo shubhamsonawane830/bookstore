@@ -1,0 +1,101 @@
+body{
+    background: #ffffff;
+}
+li{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 40px;
+    align-items: center;
+}
+li:nth-child(1){
+    color: #de4a3c;
+}
+li:nth-child(2){
+    color: #de4a3c;
+}
+li:nth-child(3){
+ color: #de4a3c;
+}
+li:nth-child(4){
+ color: #de4a3c;
+}
+li:nth-child(5){
+ columns: #de4a3c;
+}
+li:nth-child(6){
+ color: #de4a3c;
+}
+
+li:nth-child(7) {
+    color: #de4a3c;
+}
+
+li:nth-child(8) {
+    color: #de4a3c;
+}
+
+li:nth-child(9) {
+    color: #de4a3c;
+}
+
+
+ul li {
+  display: inline-flex;
+  /* margin-top: 5px;*/
+  font-size: 30px;
+  text-align: center;
+}
+
+.title {
+  display: inline-flex;
+  font-size: 20px ;
+  text-align: center;
+  margin-right: 55px;
+}
+
+.App{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 100vh;
+	
+}
+
+.container2 {
+  height: 100%;
+  width: 467px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.width{
+  border: 0px;
+  box-sizing: border-box;
+}
+.left-container2{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.inputfield{
+  display: flex;
+  margin-bottom: 4px;
+  justify-content: space-between;
+  width: 100% 
+}
+
+.loginbutton{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Submit{
+  margin-left: 200px;
+}
